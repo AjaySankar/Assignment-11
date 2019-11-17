@@ -120,8 +120,10 @@
         </main>
         <section>
           <div class="container">
-            <div class="row">
-              <div data-spy="scroll" data-target="#list-example" data-offset="0" class="col-md-8 scrollspy-example">
+            <div data-spy="scroll" data-target="#list-example" data-offset="0" class="col-md-12 scrollspy-example"></div>
+              <div class="row">
+                <div data-spy="scroll" data-target="#list-example" data-offset="0" class="col-md-12 scrollspy-example"></div>
+                <div class="col-md-9">
                   <h3 class="text-center"> Solutions </h3>
                   <h4 id="list-item-1">vProspect 2.0</h4>
                     <ul>
@@ -169,10 +171,15 @@
 
                       <li> Analyze site visitor behavior through traffic analysis, usability studies and interactive polling. Recommending and making site and application adjustments to improve usability and user experience.</li>
                   </ul>
-              </div>
-              <div class="col-md-4">
+                </div>
+                <div class="col-md-3">
                   <h3 class="text-center"> Quick Nav </h3>
-                  
+                  <div id="list-example" class="list-group">
+                    <a class="list-group-item list-group-item-action" href="#list-item-1"> vProspect 2.0 </a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-2"> vConvert 2.0 </a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-3"> vConvert 1.0 </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
